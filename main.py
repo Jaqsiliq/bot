@@ -431,6 +431,139 @@ def askname(message):
 
 
 
+# 3-kurslar
+
+
+    if button_text == '3 KI (qq)':
+        bot.send_message(message.chat.id, keste(button_text, 3) + tekst, reply_markup=types.ReplyKeyboardRemove(selective=False),
+                            parse_mode='html')
+        bot.register_next_step_handler(message, backtostart)
+        markup = types.ReplyKeyboardRemove(selective=False)
+
+    if button_text == '3 AT (qq)':
+        bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
+                         reply_markup=types.ReplyKeyboardRemove(selective=False),
+                         parse_mode='html')
+        bot.register_next_step_handler(message, backtostart)
+        markup = types.ReplyKeyboardRemove(selective=False)
+
+    if button_text == '3 DI (qq)':
+        bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
+                         reply_markup=types.ReplyKeyboardRemove(selective=False),
+                         parse_mode='html')
+        bot.register_next_step_handler(message, backtostart)
+        markup = types.ReplyKeyboardRemove(selective=False)
+
+    if button_text == '3 KT (qq)':
+        bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
+                         reply_markup=types.ReplyKeyboardRemove(selective=False),
+                         parse_mode='html')
+        bot.register_next_step_handler(message, backtostart)
+        markup = types.ReplyKeyboardRemove(selective=False)
+
+    if button_text == '3 Tel (qq)':
+        bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
+                         reply_markup=types.ReplyKeyboardRemove(selective=False),
+                         parse_mode='html')
+        bot.register_next_step_handler(message, backtostart)
+        markup = types.ReplyKeyboardRemove(selective=False)
+
+    if button_text == '3 AX (qq)':
+        bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
+                         reply_markup=types.ReplyKeyboardRemove(selective=False),
+                         parse_mode='html')
+        bot.register_next_step_handler(message, backtostart)
+        markup = types.ReplyKeyboardRemove(selective=False)
+
+
+    if button_text == '3 KI (o\'zb)':
+        bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
+                         reply_markup=types.ReplyKeyboardRemove(selective=False),
+                         parse_mode='html')
+        bot.register_next_step_handler(message, backtostart)
+        markup = types.ReplyKeyboardRemove(selective=False)
+
+    if button_text == '3 AT (o\'zb)':
+        bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
+                         reply_markup=types.ReplyKeyboardRemove(selective=False),
+                         parse_mode='html')
+        bot.register_next_step_handler(message, backtostart)
+        markup = types.ReplyKeyboardRemove(selective=False)
+
+    if button_text == '3 DI (o\'zb)':
+        bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
+                         reply_markup=types.ReplyKeyboardRemove(selective=False),
+                         parse_mode='html')
+        bot.register_next_step_handler(message, backtostart)
+        markup = types.ReplyKeyboardRemove(selective=False)
+
+    if button_text == '3 KT (o\'zb)':
+        bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
+                         reply_markup=types.ReplyKeyboardRemove(selective=False),
+                         parse_mode='html')
+        bot.register_next_step_handler(message, backtostart)
+        markup = types.ReplyKeyboardRemove(selective=False)
+
+    if button_text == '3 Tel (o\'zb)':
+        bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
+                         reply_markup=types.ReplyKeyboardRemove(selective=False),
+                         parse_mode='html')
+        bot.register_next_step_handler(message, backtostart)
+        markup = types.ReplyKeyboardRemove(selective=False)
+
+    if button_text == '3 AX (o\'zb)':
+        bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
+                         reply_markup=types.ReplyKeyboardRemove(selective=False),
+                         parse_mode='html')
+        bot.register_next_step_handler(message, backtostart)
+        markup = types.ReplyKeyboardRemove(selective=False)
+
+
+    if button_text == '3 KI (rus)':
+        bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
+                         reply_markup=types.ReplyKeyboardRemove(selective=False),
+                         parse_mode='html')
+        bot.register_next_step_handler(message, backtostart)
+        markup = types.ReplyKeyboardRemove(selective=False)
+
+    if button_text == '3 AT (rus)':
+        bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
+                         reply_markup=types.ReplyKeyboardRemove(selective=False),
+                         parse_mode='html')
+        bot.register_next_step_handler(message, backtostart)
+        markup = types.ReplyKeyboardRemove(selective=False)
+
+    if button_text == '3 DI (rus)':
+        bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
+                         reply_markup=types.ReplyKeyboardRemove(selective=False),
+                         parse_mode='html')
+        bot.register_next_step_handler(message, backtostart)
+        markup = types.ReplyKeyboardRemove(selective=False)
+
+    if button_text == '3 KT (rus)':
+        bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
+                         reply_markup=types.ReplyKeyboardRemove(selective=False),
+                         parse_mode='html')
+        bot.register_next_step_handler(message, backtostart)
+        markup = types.ReplyKeyboardRemove(selective=False)
+
+    if button_text == '3 Tel (rus)':
+        bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
+                         reply_markup=types.ReplyKeyboardRemove(selective=False),
+                         parse_mode='html')
+        bot.register_next_step_handler(message, backtostart)
+        markup = types.ReplyKeyboardRemove(selective=False)
+
+    if button_text == '3 AX (rus)':
+        bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
+                         reply_markup=types.ReplyKeyboardRemove(selective=False),
+                         parse_mode='html')
+        bot.register_next_step_handler(message, backtostart)
+        markup = types.ReplyKeyboardRemove(selective=False)
+
+
+
+
 def backtostart(message):
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
     btnn1 = types.KeyboardButton('Заказать доставку')
