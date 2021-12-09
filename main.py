@@ -20,9 +20,11 @@ def start(message):
 @bot.message_handler(commands=['keste'])
 def start_message(message):
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
-    btn1 = types.KeyboardButton('Заказать доставку')
-    btn2 = types.KeyboardButton('О нас')
-    markup.add(btn1, btn2)
+    btn1 = types.KeyboardButton('1')
+    btn2 = types.KeyboardButton('2')
+    btn3 = types.KeyboardButton('3')
+    btn4 = types.KeyboardButton('4')
+    markup.add(btn1, btn2, btn3, btn4)
     start_handler = f"<b>Привет {message.from_user.first_name}, что именно тебя интересует?</b>"
     bot.send_message(message.chat.id, start_handler, parse_mode='html', reply_markup=markup)
 
