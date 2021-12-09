@@ -1,5 +1,6 @@
 import os
 import telebot
+from telebot import types
 from flask import Flask, request
 
 TOKEN = '5028040922:AAFw6VoiWkkAUf_V6E8YxDUGo420ng4bt6I'
@@ -18,14 +19,12 @@ def start(message):
 
 @bot.message_handler(commands=['keste'])
 def start_message(message):
-    keyboard = telebot.types.ReplyKeyboardMarkup(True)
-    keyboard.row('1', '2',
-                 '3', '4')
-    bot.send_message(message.chat.id, 'Привет!', reply_markup=keyboard)
-
-
-
-
+    markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
+    btn1 = types.KeyboardButton('Заказать доставку')
+    btn2 = types.KeyboardButton('О нас')
+    markup.add(btn1, btn2)
+    start_handler = f"<b>Привет {message.from_user.first_name}, что именно тебя интересует?</b>"
+    bot.send_message(message.chat.id, start_handler, parse_mode='html', reply_markup=markup)
 
 
 @bot.message_handler(func=lambda message: True, content_types=['text'])
