@@ -699,12 +699,9 @@ def askname(message):
 
 def backtostart(message):
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
-    btnn1 = types.KeyboardButton('Заказать доставку')
-    btnn2 = types.KeyboardButton('О нас')
+    btnn1 = types.KeyboardButton('/start')
+    btnn2 = types.KeyboardButton('/help')
     markup.add(btnn1,btnn2)
-    start_handler = f"<b>{message.from_user.first_name}, я принял твой заказ :) Что нибудь ещё? </b>"
-    bot.send_message(message.chat.id, start_handler, parse_mode='html', reply_markup=markup)
-
 
 
 
