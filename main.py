@@ -7,11 +7,14 @@ APP_URL = f'https://botqo.herokuapp.com/{TOKEN}'
 bot = telebot.TeleBot(TOKEN)
 server = Flask(__name__)
 
-# zzzzzzzzoooooooorrrr
+# zzzzzzzzoooooooorrrr asdas
 @bot.message_handler(commands=['start'])
 def start(message):
     bot.reply_to(message, 'Hello, ' + message.from_user.first_name)
 
+@bot.message_handler(commands=['go'])
+def start(message):
+    bot.reply_to(message, 'Assalawma Aleykum!, ' + message.from_user.first_name)
 
 @bot.message_handler(func=lambda message: True, content_types=['text'])
 def echo(message):
