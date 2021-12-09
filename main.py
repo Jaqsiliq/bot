@@ -19,7 +19,7 @@ def start(message):
 
 @bot.message_handler(commands=['keste'])
 def start_message(message):
-    markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
+    markup = types.ReplyKeyboardMarkup(resize_keyboard=False, row_width=2)
     btn1 = types.KeyboardButton('1')
     btn2 = types.KeyboardButton('2')
     btn3 = types.KeyboardButton('3')
