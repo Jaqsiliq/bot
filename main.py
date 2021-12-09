@@ -694,7 +694,10 @@ def askname(message):
         bot.register_next_step_handler(message, backtostart)
         markup = types.ReplyKeyboardRemove(selective=False)
 
-
+    markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
+    btnn1 = types.KeyboardButton('/start')
+    btnn2 = types.KeyboardButton('/help')
+    markup.add(btnn1, btnn2)
 
 
 def backtostart(message):
