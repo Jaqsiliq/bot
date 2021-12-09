@@ -19,7 +19,7 @@ def start(message):
 @bot.message_handler(commands=['keste'])
 def start_message(message):
     keyboard = telebot.types.ReplyKeyboardMarkup(True)
-    keyboard.row('1', '2'
+    keyboard.row('1', '2',
                  '3', '4')
     bot.send_message(message.chat.id, 'Привет!', reply_markup=keyboard)
 
