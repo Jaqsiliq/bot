@@ -19,8 +19,14 @@ def start(message):
 @bot.message_handler(commands=['keste'])
 def start_message(message):
     keyboard = telebot.types.ReplyKeyboardMarkup(True)
-    keyboard.row('Привет', 'Пока')
+    keyboard.row('1', '2'
+                 '3', '4')
     bot.send_message(message.chat.id, 'Привет!', reply_markup=keyboard)
+
+
+
+
+
 
 @bot.message_handler(func=lambda message: True, content_types=['text'])
 def echo(message):
