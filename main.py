@@ -55,7 +55,7 @@ def topar(message):
         btn20 = types.KeyboardButton('1 AX (rus)')
         btn21 = types.KeyboardButton('1 RI (rus)')
         markup.add(btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8,btn9,btn10,btn11,btn12,btn13,btn14,btn15,btn16,btn17,btn18,btn19,btn20,btn21)
-        send_mess = f"<b>{message.from_user.first_name}, в каком городе вы проживаете?</b>"
+
         bot.send_message(message.chat.id, send_mess, parse_mode='html', reply_markup=markup)
         bot.register_next_step_handler(message, askname)
 
@@ -84,7 +84,7 @@ def topar(message):
         btn20 = types.KeyboardButton('2 AX (rus)')
         #btn21 = types.KeyboardButton('1 RI (rus)')
         markup.add(btn1,btn2,btn3,btn4,btn5,btn6,btn8,btn9,btn10,btn11,btn12,btn13,btn15,btn16,btn17,btn18,btn19,btn20)
-        send_mess = f"<b>{message.from_user.first_name}, в каком городе вы проживаете?</b>"
+
         bot.send_message(message.chat.id, send_mess, parse_mode='html', reply_markup=markup)
         bot.register_next_step_handler(message, askname)
 
@@ -113,7 +113,7 @@ def topar(message):
             btn20 = types.KeyboardButton('3 AX (rus)')
             #btn21 = types.KeyboardButton('1 RI (rus)')
             markup.add(btn1,btn2,btn3,btn4,btn5,btn6,btn8,btn9,btn10,btn11,btn12,btn13,btn15,btn16,btn17,btn18,btn19,btn20)
-            send_mess = f"<b>{message.from_user.first_name}, в каком городе вы проживаете?</b>"
+
             bot.send_message(message.chat.id, send_mess, parse_mode='html', reply_markup=markup)
             bot.register_next_step_handler(message, askname)
 
@@ -142,7 +142,7 @@ def topar(message):
             btn20 = types.KeyboardButton('4 AX (rus)')
             #btn21 = types.KeyboardButton('1 RI (rus)')
             markup.add(btn1,btn2,btn3,btn4,btn5,btn6,btn8,btn9,btn10,btn11,btn12,btn13,btn15,btn16,btn17,btn18,btn19,btn20)
-            send_mess = f"<b>{message.from_user.first_name}, в каком городе вы проживаете?</b>"
+
             bot.send_message(message.chat.id, send_mess, parse_mode='html', reply_markup=markup)
             bot.register_next_step_handler(message, askname)
 
