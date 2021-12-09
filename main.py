@@ -16,6 +16,12 @@ def start(message):
 def start(message):
     bot.reply_to(message, 'Assalawma Aleykum!, ' + message.from_user.first_name)
 
+@bot.message_handler(commands=['keste'])
+def start_message(message):
+    keyboard = telebot.types.ReplyKeyboardMarkup(True)
+    keyboard.row('Привет', 'Пока')
+    bot.send_message(message.chat.id, 'Привет!', reply_markup=keyboard)
+
 @bot.message_handler(func=lambda message: True, content_types=['text'])
 def echo(message):
     bot.reply_to(message, message.text)
