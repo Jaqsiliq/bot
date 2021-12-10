@@ -691,20 +691,9 @@ def askname(message):
         bot.send_message(message.chat.id, keste(button_text, 4) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
         markup = types.ReplyKeyboardRemove(selective=False)
 
-    markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
-    btnn1 = types.KeyboardButton('/start')
-    btnn2 = types.KeyboardButton('/help')
-    markup.add(btnn1, btnn2)
 
-
-def backtostart(message):
-    markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
-    btnn1 = types.KeyboardButton('/start')
-    btnn2 = types.KeyboardButton('/help')
-    markup.add(btnn1,btnn2)
 
 
 
