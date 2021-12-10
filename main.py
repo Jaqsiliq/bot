@@ -154,147 +154,147 @@ def askname(message):
     if button_text == '1 KI (qq)':
         bot.send_message(message.chat.id, keste(button_text, 1) + tekst, reply_markup=types.ReplyKeyboardRemove(selective=False),
                             parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '1 AT (qq)':
         bot.send_message(message.chat.id, keste(button_text, 1) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '1 DI (qq)':
         bot.send_message(message.chat.id, keste(button_text, 1) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '1 KT (qq)':
         bot.send_message(message.chat.id, keste(button_text, 1) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '1 Tel (qq)':
         bot.send_message(message.chat.id, keste(button_text, 1) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '1 AX (qq)':
         bot.send_message(message.chat.id, keste(button_text, 1) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '1 RI (qq)':
         bot.send_message(message.chat.id, keste(button_text, 1) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '1 KI (o\'zb)':
         bot.send_message(message.chat.id, keste(button_text, 1) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '1 AT (o\'zb)':
         bot.send_message(message.chat.id, keste(button_text, 1) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '1 DI (o\'zb)':
         bot.send_message(message.chat.id, keste(button_text, 1) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '1 KT (o\'zb)':
         bot.send_message(message.chat.id, keste(button_text, 1) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '1 Tel (o\'zb)':
         bot.send_message(message.chat.id, keste(button_text, 1) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '1 AX (o\'zb)':
         bot.send_message(message.chat.id, keste(button_text, 1) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '1 RI (o\'zb)':
         bot.send_message(message.chat.id, keste(button_text, 1) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '1 KI (rus)':
         bot.send_message(message.chat.id, keste(button_text, 1) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '1 AT (rus)':
         bot.send_message(message.chat.id, keste(button_text, 1) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '1 DI (rus)':
         bot.send_message(message.chat.id, keste(button_text, 1) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '1 KT (rus)':
         bot.send_message(message.chat.id, keste(button_text, 1) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '1 Tel (rus)':
         bot.send_message(message.chat.id, keste(button_text, 1) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '1 AX (rus)':
         bot.send_message(message.chat.id, keste(button_text, 1) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '1 RI (rus)':
         bot.send_message(message.chat.id, keste(button_text, 1) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
 
@@ -304,42 +304,42 @@ def askname(message):
     if button_text == '2 KI (qq)':
         bot.send_message(message.chat.id, keste(button_text, 2) + tekst, reply_markup=types.ReplyKeyboardRemove(selective=False),
                             parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '2 AT (qq)':
         bot.send_message(message.chat.id, keste(button_text, 2) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '2 DI (qq)':
         bot.send_message(message.chat.id, keste(button_text, 2) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '2 KT (qq)':
         bot.send_message(message.chat.id, keste(button_text, 2) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '2 Tel (qq)':
         bot.send_message(message.chat.id, keste(button_text, 2) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '2 AX (qq)':
         bot.send_message(message.chat.id, keste(button_text, 2) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
 
@@ -347,42 +347,42 @@ def askname(message):
         bot.send_message(message.chat.id, keste(button_text, 2) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '2 AT (o\'zb)':
         bot.send_message(message.chat.id, keste(button_text, 2) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '2 DI (o\'zb)':
         bot.send_message(message.chat.id, keste(button_text, 2) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '2 KT (o\'zb)':
         bot.send_message(message.chat.id, keste(button_text, 2) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '2 Tel (o\'zb)':
         bot.send_message(message.chat.id, keste(button_text, 2) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '2 AX (o\'zb)':
         bot.send_message(message.chat.id, keste(button_text, 2) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
 
@@ -390,42 +390,42 @@ def askname(message):
         bot.send_message(message.chat.id, keste(button_text, 2) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '2 AT (rus)':
         bot.send_message(message.chat.id, keste(button_text, 2) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '2 DI (rus)':
         bot.send_message(message.chat.id, keste(button_text, 2) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '2 KT (rus)':
         bot.send_message(message.chat.id, keste(button_text, 2) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '2 Tel (rus)':
         bot.send_message(message.chat.id, keste(button_text, 2) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '2 AX (rus)':
         bot.send_message(message.chat.id, keste(button_text, 2) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
 
@@ -437,42 +437,42 @@ def askname(message):
     if button_text == '3 KI (qq)':
         bot.send_message(message.chat.id, keste(button_text, 3) + tekst, reply_markup=types.ReplyKeyboardRemove(selective=False),
                             parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '3 AT (qq)':
         bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '3 DI (qq)':
         bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '3 KT (qq)':
         bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '3 Tel (qq)':
         bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '3 AX (qq)':
         bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
 
@@ -480,42 +480,42 @@ def askname(message):
         bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '3 AT (o\'zb)':
         bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '3 DI (o\'zb)':
         bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '3 KT (o\'zb)':
         bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '3 Tel (o\'zb)':
         bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '3 AX (o\'zb)':
         bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
 
@@ -523,42 +523,42 @@ def askname(message):
         bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '3 AT (rus)':
         bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '3 DI (rus)':
         bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '3 KT (rus)':
         bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '3 Tel (rus)':
         bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '3 AX (rus)':
         bot.send_message(message.chat.id, keste(button_text, 3) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
 
@@ -570,42 +570,42 @@ def askname(message):
     if button_text == '4 KI (qq)':
         bot.send_message(message.chat.id, keste(button_text, 4) + tekst, reply_markup=types.ReplyKeyboardRemove(selective=False),
                             parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '4 AT (qq)':
         bot.send_message(message.chat.id, keste(button_text, 4) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '4 DI (qq)':
         bot.send_message(message.chat.id, keste(button_text, 4) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '4 KT (qq)':
         bot.send_message(message.chat.id, keste(button_text, 4) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '4 Tel (qq)':
         bot.send_message(message.chat.id, keste(button_text, 4) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '4 AX (qq)':
         bot.send_message(message.chat.id, keste(button_text, 4) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
 
@@ -613,42 +613,42 @@ def askname(message):
         bot.send_message(message.chat.id, keste(button_text, 4) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '4 AT (o\'zb)':
         bot.send_message(message.chat.id, keste(button_text, 4) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '4 DI (o\'zb)':
         bot.send_message(message.chat.id, keste(button_text, 4) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '4 KT (o\'zb)':
         bot.send_message(message.chat.id, keste(button_text, 4) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '4 Tel (o\'zb)':
         bot.send_message(message.chat.id, keste(button_text, 4) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '4 AX (o\'zb)':
         bot.send_message(message.chat.id, keste(button_text, 4) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
 
@@ -656,35 +656,34 @@ def askname(message):
         bot.send_message(message.chat.id, keste(button_text, 4) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '4 AT (rus)':
         bot.send_message(message.chat.id, keste(button_text, 4) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '4 DI (rus)':
         bot.send_message(message.chat.id, keste(button_text, 4) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '4 KT (rus)':
         bot.send_message(message.chat.id, keste(button_text, 4) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '4 Tel (rus)':
         bot.send_message(message.chat.id, keste(button_text, 4) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
-                         parse_mode='html')
-        bot.register_next_step_handler(message, backtostart)
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
     if button_text == '4 AX (rus)':
