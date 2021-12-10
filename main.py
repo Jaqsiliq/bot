@@ -683,6 +683,8 @@ def askname(message):
     if button_text == '4 Tel (rus)':
         bot.send_message(message.chat.id, keste(button_text, 4) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
+                         parse_mode='html')
+
 
         markup = types.ReplyKeyboardRemove(selective=False)
 
@@ -690,6 +692,7 @@ def askname(message):
         bot.send_message(message.chat.id, keste(button_text, 4) + tekst,
                          reply_markup=types.ReplyKeyboardRemove(selective=False),
                          parse_mode='html')
+
         markup = types.ReplyKeyboardRemove(selective=False)
 
 
