@@ -76,7 +76,7 @@ def kafedra(message):
         btn16 = types.KeyboardButton('асс. Жарылкаганов Б')
         btn17 = types.KeyboardButton('асс. Даулетназаров Ж')
         markup.add(btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btn10, btn11, btn12, btn13, btn14, btn15, btn16, btn17)
-        start_handler = f"<b> Kafedrani tanlang: </b>"
+        start_handler = f"<b> Tanlang: </b>"
         bot.send_message(message.chat.id, start_handler, parse_mode='html', reply_markup=markup)
         bot.register_next_step_handler(message, juwap_kafedra)
 

@@ -331,7 +331,7 @@ def keste(topar, kurs):
             for j in range(1, 5):
 
                 if sabaq_joqpa(x, q, 1) == 1:
-                    barligi += str(s) + ")" + bos_sabaq_ati(x, q, 1) + "\n" + pan_mugalimi(x, q, 1) + bos_nomer_orni(x, q, 1) + "\n"
+                    barligi += str(s) + ") " + "<b>" + bos_sabaq_ati(x, q, 1) + "</b>" + "\n" + pan_mugalimi(x, q, 1) + bos_nomer_orni(x, q, 1) + "\n"
                 x += 2
                 s += 1
             barligi += "\n"
@@ -346,7 +346,7 @@ def keste(topar, kurs):
             for j in range(1, 5):
 
                 if sabaq_joqpa(x, q, 2) == 1:
-                    barligi += str(s) + ")" + bos_sabaq_ati(x, q, 2) + "\n" + pan_mugalimi(x, q, 2) + bos_nomer_orni(x, q, 2) + "\n"
+                    barligi += str(s) + ") " + "<b>" + bos_sabaq_ati(x, q, 2) + "</b>" + "\n" + pan_mugalimi(x, q, 2) + bos_nomer_orni(x, q, 2) + "\n"
                 x += 2
                 s += 1
             barligi += "\n"
@@ -361,7 +361,7 @@ def keste(topar, kurs):
             for j in range(1, 5):
 
                 if sabaq_joqpa(x, q, 3) == 1:
-                    barligi += str(s) + ")" + bos_sabaq_ati(x, q, 3) + "\n" + pan_mugalimi(x, q, 3) + bos_nomer_orni(x, q, 3) + "\n"
+                    barligi += str(s) + ") " + "<b>" + bos_sabaq_ati(x, q, 3) + "</b>" + "\n" + pan_mugalimi(x, q, 3) + bos_nomer_orni(x, q, 3) + "\n"
                 x += 2
                 s += 1
             barligi += "\n"
@@ -376,7 +376,7 @@ def keste(topar, kurs):
             for j in range(1, 5):
 
                 if sabaq_joqpa(x, q, 4) == 1:
-                    barligi += str(s) + ")" + bos_sabaq_ati(x, q, 4) + "\n" + pan_mugalimi(x, q, 4) + bos_nomer_orni(x, q, 4) + "\n"
+                    barligi += str(s) + ") " + "<b>" + bos_sabaq_ati(x, q, 4) + "</b>" + "\n" + pan_mugalimi(x, q, 4) + bos_nomer_orni(x, q, 4) + "\n"
                 x += 2
                 s += 1
             barligi += "\n"
