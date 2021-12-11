@@ -18,6 +18,8 @@ tekst = "<b>Aqırģı márte " + confyg_1.janalangan_waqit + " jańalandı.</b>\
 @bot.message_handler(commands=['start'])
 def start(message):
     markup = types.ReplyKeyboardMarkup(resize_keyboard=False, row_width=2, one_time_keyboard=True)
+    btn1 = types.KeyboardButton('Talaba')
+    btn2 = types.KeyboardButton('Ustoz')
     btn1 = types.KeyboardButton('1')
     btn2 = types.KeyboardButton('2')
     btn3 = types.KeyboardButton('3')
@@ -57,7 +59,7 @@ def topar(message):
         markup.add(btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8,btn9,btn10,btn11,btn12,btn13,btn14,btn15,btn16,btn17,btn18,btn19,btn20,btn21)
         send_mess = f"<b>Guruh tanlang:</b>"
         bot.send_message(message.chat.id, send_mess, parse_mode='html', reply_markup=markup)
-        bot.register_next_step_handler(message, askname)
+        bot.register_next_step_handler(message, juwap)
 
     if get_message_bot == "2":
         markup = types.ReplyKeyboardMarkup(resize_keyboard=False, row_width=3) #one_time_keyboard=True сразу убирает клаву, после нажатия
@@ -86,7 +88,7 @@ def topar(message):
         markup.add(btn1,btn2,btn3,btn4,btn5,btn6,btn8,btn9,btn10,btn11,btn12,btn13,btn15,btn16,btn17,btn18,btn19,btn20)
         send_mess = f"<b>Guruh tanlang:</b>"
         bot.send_message(message.chat.id, send_mess, parse_mode='html', reply_markup=markup)
-        bot.register_next_step_handler(message, askname)
+        bot.register_next_step_handler(message, juwap)
 
     if get_message_bot == "3":
             markup = types.ReplyKeyboardMarkup(resize_keyboard=False, row_width=3) #one_time_keyboard=True сразу убирает клаву, после нажатия
@@ -115,7 +117,7 @@ def topar(message):
             markup.add(btn1,btn2,btn3,btn4,btn5,btn6,btn8,btn9,btn10,btn11,btn12,btn13,btn15,btn16,btn17,btn18,btn19,btn20)
             send_mess = f"<b>Guruh tanlang:</b>"
             bot.send_message(message.chat.id, send_mess, parse_mode='html', reply_markup=markup)
-            bot.register_next_step_handler(message, askname)
+            bot.register_next_step_handler(message, juwap)
 
     if get_message_bot == "4":
             markup = types.ReplyKeyboardMarkup(resize_keyboard=False, row_width=3) #one_time_keyboard=True сразу убирает клаву, после нажатия
@@ -144,10 +146,10 @@ def topar(message):
             markup.add(btn1,btn2,btn3,btn4,btn5,btn6,btn8,btn9,btn10,btn11,btn12,btn13,btn15,btn16,btn17,btn18,btn19,btn20)
             send_mess = f"<b>Guruh tanlang:</b>"
             bot.send_message(message.chat.id, send_mess, parse_mode='html', reply_markup=markup)
-            bot.register_next_step_handler(message, askname)
+            bot.register_next_step_handler(message, juwap)
 
 
-def askname(message):
+def juwap(message):
     markup = types.ReplyKeyboardRemove(selective=False)
     button_text = message.text
 # 1-kurslar
