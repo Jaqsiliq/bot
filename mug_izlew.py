@@ -23,7 +23,7 @@ def mug_izlew(ustaz):
                     a = str(pan_mugalimi(x, q, 1)).lower()
 
                     if a.find(ustaz) != -1:
-                        barligi += str(s) + ")"
+                        barligi += str(s) + ") "
                         if q == 3:
                             barligi += '<b>1 KI (QQ) : </b>\n'
 
@@ -99,7 +99,7 @@ def mug_izlew(ustaz):
                         a = str(pan_mugalimi(x, q, 2)).lower()
 
                         if a.find(ustaz) != -1:
-                            barligi += str(s) + ")"
+                            barligi += str(s) + ") "
                             if q == 3:
                                 barligi += '<b>2 KI (QQ) : </b>\n'
 
@@ -165,7 +165,7 @@ def mug_izlew(ustaz):
                         a = str(pan_mugalimi(x-1, q, 3)).lower()
 
                         if a.find(ustaz) != -1:
-                            barligi += str(s) + ")"
+                            barligi += str(s) + ") "
                             if q == 3:
                                 barligi += '<b>3 KI (QQ) : </b>\n'
 
@@ -231,7 +231,7 @@ def mug_izlew(ustaz):
                         a = str(pan_mugalimi(x - 1, q, 4)).lower()
 
                         if a.find(ustaz) != -1:
-                            barligi += str(s) + ")"
+                            barligi += str(s) + ") "
                             if q == 3:
                                 barligi += '<b>4 KI (QQ) : </b>\n'
 
