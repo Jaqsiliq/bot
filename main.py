@@ -25,7 +25,7 @@ def start(message):
 
 
 @bot.message_handler(content_types=['text'])
-def talaba(message):
+def talaba_ustoz(message):
     get_message_bot = message.text.strip().lower()
     if get_message_bot == "talaba":
         markup = types.ReplyKeyboardMarkup(resize_keyboard=False, row_width=2, one_time_keyboard=True)
@@ -35,6 +35,20 @@ def talaba(message):
         btn4 = types.KeyboardButton('4')
         markup.add(btn1, btn2, btn3, btn4)
         start_handler = f"<b> Kursni tanlang:</b>"
+        bot.send_message(message.chat.id, start_handler, parse_mode='html', reply_markup=markup)
+        bot.register_next_step_handler(message, topar)
+    if get_message_bot == "ustoz":
+        markup = types.ReplyKeyboardMarkup(resize_keyboard=False, row_width=2, one_time_keyboard=True)
+        btn1 = types.KeyboardButton('Dasturiy injiniring')
+        btn2 = types.KeyboardButton('Axborot texnologiyalari')
+        btn3 = types.KeyboardButton('Axborot xavfsizligi')
+        btn4 = types.KeyboardButton('Axborot ta\'lim texnologiyalari')
+        btn5 = types.KeyboardButton('Kompyuter tizimlari')
+        btn6 = types.KeyboardButton('Tabiiy va aniq fanlar')
+        btn7 = types.KeyboardButton('Telekommunikatsiya injiniringi')
+        btn8 = types.KeyboardButton('O\'zbek va chet tillari')
+        markup.add(btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8)
+        start_handler = f"<b> Kafedrani tanlang: </b>"
         bot.send_message(message.chat.id, start_handler, parse_mode='html', reply_markup=markup)
         bot.register_next_step_handler(message, topar)
 
