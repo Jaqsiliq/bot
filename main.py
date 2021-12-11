@@ -3,6 +3,7 @@ import telebot
 from telebot import types
 from flask import Flask, request
 from keste import keste
+from mug_izlew import mug_izlew
 import confyg_1
 
 TOKEN = '5028040922:AAFw6VoiWkkAUf_V6E8YxDUGo420ng4bt6I'
@@ -50,7 +51,41 @@ def talaba_ustoz(message):
         markup.add(btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8)
         start_handler = f"<b> Kafedrani tanlang: </b>"
         bot.send_message(message.chat.id, start_handler, parse_mode='html', reply_markup=markup)
-        bot.register_next_step_handler(message, topar)
+        bot.register_next_step_handler(message, kafedra)
+
+@bot.message_handler(content_types=['text'])
+def kafedra(message):
+    get_message_bot = message.text
+    if get_message_bot == 'Dasturiy injiniring':
+        markup = types.ReplyKeyboardMarkup(resize_keyboard=False, row_width=2, one_time_keyboard=True)
+        btn1 = types.KeyboardButton('проф. Утеулиев Н.Н.')
+        btn2 = types.KeyboardButton('доц. Бурханов Ш.')
+        btn3 = types.KeyboardButton('асс. Кудайбергенов Ж.')
+        btn4 = types.KeyboardButton('асс.Бегилов Б.')
+        btn5 = types.KeyboardButton('асс. Мадреймова З.')
+        btn6 = types.KeyboardButton('асс. Пиримбетов А.')
+        btn7 = types.KeyboardButton('асс. Ядгаров Ш.')
+        btn8 = types.KeyboardButton('асс. Сейтимбетов Д.')
+        btn9 = types.KeyboardButton('асс. Калмуратов Б.')
+        btn10 = types.KeyboardButton('асс. Сагидуллаев Н.')
+        btn11 = types.KeyboardButton('асс. Орынбаев А.')
+        btn12 = types.KeyboardButton('асс. Ваисова У.')
+        btn13 = types.KeyboardButton('асс. Тилепова Абадан')
+        btn14 = types.KeyboardButton('асс. Примбетов А.')
+        btn15 = types.KeyboardButton('асс. Мамутова А.')
+        btn16 = types.KeyboardButton('асс. Жарылкаганов Б.')
+        btn17 = types.KeyboardButton('асс. Даулетназаров Ж.')
+        markup.add(btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btn10, btn11, btn12, btn13, btn14, btn15, btn16, btn17)
+        start_handler = f"<b> Kafedrani tanlang: </b>"
+        bot.send_message(message.chat.id, start_handler, parse_mode='html', reply_markup=markup)
+        bot.register_next_step_handler(message, juwap_kafedra)
+
+
+
+@bot.message_handler(content_types=['text'])
+def juwap_kafedra(message):
+    get_message_bot = str(message.text.strip().lower())
+    bot.send_message(message.chat.id, mug_izlew(get_message_bot) + tekst,reply_markup=types.ReplyKeyboardRemove(selective=False),parse_mode='html')
 
 @bot.message_handler(content_types=['text'])
 def topar(message):

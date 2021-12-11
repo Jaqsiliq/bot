@@ -295,5 +295,5 @@ def mug_izlew(ustaz):
     return barligi
 
 
-print(mug_izlew("даулетназаров"))
+#print(mug_izlew(""))
 
