@@ -69,7 +69,7 @@ def kafedra(message):
         btn9 = types.KeyboardButton('асс. Калмуратов Б')
         btn10 = types.KeyboardButton('асс. Сагидуллаев Н')
         btn11 = types.KeyboardButton('асс. Орынбаев А')
-        btn12 = types.KeyboardButton('асс. Ваисова У')
+        btn12 = types.KeyboardButton('асс. Вайсова У')
         btn13 = types.KeyboardButton('асс. Тилепова Абадан')
         btn14 = types.KeyboardButton('асс. Примбетов А')
         btn15 = types.KeyboardButton('асс. Мамутова А')
