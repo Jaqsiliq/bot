@@ -14,19 +14,29 @@ tekst = "<b>Aqırģı márte " + confyg_1.janalangan_waqit + " jańalandı.</b>\
 
 
 
-
 @bot.message_handler(commands=['start'])
 def start(message):
     markup = types.ReplyKeyboardMarkup(resize_keyboard=False, row_width=2, one_time_keyboard=True)
-
-    btn1 = types.KeyboardButton('1')
-    btn2 = types.KeyboardButton('2')
-    btn3 = types.KeyboardButton('3')
-    btn4 = types.KeyboardButton('4')
-    markup.add(btn1, btn2, btn3, btn4)
-    start_handler = f"<b>Assalawma Aleykum {message.from_user.first_name} ! Kursni tanlang:</b>"
+    btn1 = types.KeyboardButton('Talaba')
+    btn2 = types.KeyboardButton('Ustoz')
+    markup.add(btn1, btn2)
+    start_handler = f"Assalawma Aleykum<b> {message.from_user.first_name} </b>! Tanlang:"
     bot.send_message(message.chat.id, start_handler, parse_mode='html', reply_markup=markup)
 
+
+@bot.message_handler(content_types=['text'])
+def talaba(message):
+    get_message_bot = message.text.strip().lower()
+    if get_message_bot == "talaba":
+        markup = types.ReplyKeyboardMarkup(resize_keyboard=False, row_width=2, one_time_keyboard=True)
+        btn1 = types.KeyboardButton('1')
+        btn2 = types.KeyboardButton('2')
+        btn3 = types.KeyboardButton('3')
+        btn4 = types.KeyboardButton('4')
+        markup.add(btn1, btn2, btn3, btn4)
+        start_handler = f"<b> Kursni tanlang:</b>"
+        bot.send_message(message.chat.id, start_handler, parse_mode='html', reply_markup=markup)
+        bot.register_next_step_handler(message, topar)
 
 @bot.message_handler(content_types=['text'])
 def topar(message):
@@ -56,7 +66,7 @@ def topar(message):
         btn20 = types.KeyboardButton('1 AX (rus)')
         btn21 = types.KeyboardButton('1 RI (rus)')
         markup.add(btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8,btn9,btn10,btn11,btn12,btn13,btn14,btn15,btn16,btn17,btn18,btn19,btn20,btn21)
-        send_mess = f"<b>Guruh tanlang:</b>"
+        send_mess = f"<b> Guruh tanlang:</b>"
         bot.send_message(message.chat.id, send_mess, parse_mode='html', reply_markup=markup)
         bot.register_next_step_handler(message, juwap)
 
@@ -85,7 +95,7 @@ def topar(message):
         btn20 = types.KeyboardButton('2 AX (rus)')
         #btn21 = types.KeyboardButton('1 RI (rus)')
         markup.add(btn1,btn2,btn3,btn4,btn5,btn6,btn8,btn9,btn10,btn11,btn12,btn13,btn15,btn16,btn17,btn18,btn19,btn20)
-        send_mess = f"<b>Guruh tanlang:</b>"
+        send_mess = f"<b> Guruh tanlang:</b>"
         bot.send_message(message.chat.id, send_mess, parse_mode='html', reply_markup=markup)
         bot.register_next_step_handler(message, juwap)
 
@@ -114,7 +124,7 @@ def topar(message):
             btn20 = types.KeyboardButton('3 AX (rus)')
             #btn21 = types.KeyboardButton('1 RI (rus)')
             markup.add(btn1,btn2,btn3,btn4,btn5,btn6,btn8,btn9,btn10,btn11,btn12,btn13,btn15,btn16,btn17,btn18,btn19,btn20)
-            send_mess = f"<b>Guruh tanlang:</b>"
+            send_mess = f"<b> Guruh tanlang:</b>"
             bot.send_message(message.chat.id, send_mess, parse_mode='html', reply_markup=markup)
             bot.register_next_step_handler(message, juwap)
 
@@ -143,7 +153,7 @@ def topar(message):
             btn20 = types.KeyboardButton('4 AX (rus)')
             #btn21 = types.KeyboardButton('1 RI (rus)')
             markup.add(btn1,btn2,btn3,btn4,btn5,btn6,btn8,btn9,btn10,btn11,btn12,btn13,btn15,btn16,btn17,btn18,btn19,btn20)
-            send_mess = f"<b>Guruh tanlang:</b>"
+            send_mess = f"<b> Guruh tanlang:</b>"
             bot.send_message(message.chat.id, send_mess, parse_mode='html', reply_markup=markup)
             bot.register_next_step_handler(message, juwap)
 
