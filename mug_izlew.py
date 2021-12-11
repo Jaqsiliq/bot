@@ -87,7 +87,7 @@ def mug_izlew(ustaz):
                         if q == 43:
                             barligi += '<b>1 RI (RUS) : </b>\n'
 
-                        barligi += bos_sabaq_ati(x, q, 1) + "\n" + pan_mugalimi(x, q,1) + bos_nomer_orni(x, q,1) + "\n"
+                        barligi += "<b><i>" + bos_sabaq_ati(x, q, 1) + "</i></b>" + "\n" + pan_mugalimi(x, q,1) + bos_nomer_orni(x, q,1) + "\n"
                         mug = mug + 1
                         #print(a)
 
