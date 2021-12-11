@@ -18,8 +18,7 @@ tekst = "<b>Aqırģı márte " + confyg_1.janalangan_waqit + " jańalandı.</b>\
 @bot.message_handler(commands=['start'])
 def start(message):
     markup = types.ReplyKeyboardMarkup(resize_keyboard=False, row_width=2, one_time_keyboard=True)
-    btn1 = types.KeyboardButton('Talaba')
-    btn2 = types.KeyboardButton('Ustoz')
+
     btn1 = types.KeyboardButton('1')
     btn2 = types.KeyboardButton('2')
     btn3 = types.KeyboardButton('3')
