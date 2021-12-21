@@ -56,6 +56,15 @@ def talaba_ustoz(message):
 @bot.message_handler(content_types=['text'])
 def kafedra(message):
     get_message_bot = message.text
+    if get_message_bot == 'Axborot ta\'lim texnologiyalari':
+        markup = types.ReplyKeyboardMarkup(resize_keyboard=False, row_width=2, one_time_keyboard=True)
+        btn1 = types.KeyboardButton('Есбергенов Х')
+        btn2 = types.KeyboardButton('асс. Хожаниязова С')
+        markup.add(btn1, btn2)
+        start_handler = f"<b> Tanlang: </b>"
+        bot.send_message(message.chat.id, start_handler, parse_mode='html', reply_markup=markup)
+        bot.register_next_step_handler(message, juwap_kafedra)
+
     if get_message_bot == 'Dasturiy injiniring':
         markup = types.ReplyKeyboardMarkup(resize_keyboard=False, row_width=2, one_time_keyboard=True)
         btn1 = types.KeyboardButton('проф. Утеулиев Н.Н.')
@@ -81,7 +90,7 @@ def kafedra(message):
         bot.register_next_step_handler(message, juwap_kafedra)
 
 
-
+#kjhgi;.gu/i.kguj/o
 @bot.message_handler(content_types=['text'])
 def juwap_kafedra(message):
     get_message_bot = str(message.text.strip().lower())
