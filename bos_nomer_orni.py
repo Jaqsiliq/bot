@@ -18,14 +18,14 @@ def bos_nomer_orni(x, q, kurs):
 
                 if str(worksheet1.cell(x, q2))[:6] == 'number':
                     break
-                elif str(worksheet1.cell(x, q2))[:4] == 'text' and ((''.join(str(worksheet1.cell_value(x, q2)).split())) == 'с/з' or (''.join(str(worksheet1.cell_value(x, q2)).split())).isdigit()):
+                elif str(worksheet1.cell(x, q2))[:4] == 'text' and ((''.join(str(worksheet1.cell_value(x, q2)).split())).lower() == 'с/з' or (''.join(str(worksheet1.cell_value(x, q2)).split())).isdigit()):
                     break
                 q2 = q2 + 1
         if str(worksheet1.cell(x, q2))[:6] == 'number':
             juwap += " <i>(" + str(int(worksheet1.cell_value(x, q2))) + " aud)</i>"
-        elif str(worksheet1.cell(x, q2))[:4] == 'text' and (''.join(str(worksheet1.cell_value(x, q2)).split())) != 'с/з':
+        elif str(worksheet1.cell(x, q2))[:4] == 'text' and (''.join(str(worksheet1.cell_value(x, q2)).split())).lower() != 'с/з':
             juwap += " <i>(" + str(worksheet1.cell_value(x, q2)) + " aud)</i>"
-        elif (''.join(str(worksheet1.cell_value(x, q2)).split())) == 'с/з':
+        elif (''.join(str(worksheet1.cell_value(x, q2)).split())).lower() == 'с/з':
             juwap += " <i>(" + str(worksheet1.cell_value(x, q2)) + ")</i>"
         return juwap
 
@@ -37,14 +37,14 @@ def bos_nomer_orni(x, q, kurs):
 
                 if str(worksheet2.cell(x, q2))[:6] == 'number':
                     break
-                elif str(worksheet2.cell(x, q2))[:4] == 'text' and ((''.join(str(worksheet2.cell_value(x, q2)).split())) == 'с/з' or (''.join(str(worksheet2.cell_value(x, q2)).split())).isdigit()):
+                elif str(worksheet2.cell(x, q2))[:4] == 'text' and ((''.join(str(worksheet2.cell_value(x, q2)).split())).lower() == 'с/з' or (''.join(str(worksheet2.cell_value(x, q2)).split())).isdigit()):
                     break
                 q2 = q2 + 1
         if str(worksheet2.cell(x, q2))[:6] == 'number':
             juwap += " <i>(" + str(int(worksheet2.cell_value(x, q2))) + " aud)</i>"
-        elif str(worksheet2.cell(x, q2))[:4] == 'text' and (''.join(str(worksheet2.cell_value(x, q2)).split())) != 'с/з':
+        elif str(worksheet2.cell(x, q2))[:4] == 'text' and (''.join(str(worksheet2.cell_value(x, q2)).split())).lower() != 'с/з':
             juwap += " <i>(" + str(worksheet2.cell_value(x, q2)) + " aud)</i>"
-        elif (''.join(str(worksheet2.cell_value(x, q2)).split())) == 'с/з':
+        elif (''.join(str(worksheet2.cell_value(x, q2)).split())).lower() == 'с/з':
             juwap += " <i>(" + str(worksheet2.cell_value(x, q2)) + ")</i>"
         return juwap
 
@@ -56,14 +56,14 @@ def bos_nomer_orni(x, q, kurs):
 
                 if str(worksheet3.cell(x, q2))[:6] == 'number':
                     break
-                elif str(worksheet3.cell(x, q2))[:4] == 'text' and ((''.join(str(worksheet3.cell_value(x, q2)).split())) == 'с/з' or (''.join(str(worksheet3.cell_value(x, q2)).split())).isdigit()):
+                elif str(worksheet3.cell(x, q2))[:4] == 'text' and ((''.join(str(worksheet3.cell_value(x, q2)).split())).lower() == 'с/з' or (''.join(str(worksheet3.cell_value(x, q2)).split())).isdigit()):
                     break
                 q2 = q2 + 1
         if str(worksheet3.cell(x, q2))[:6] == 'number':
             juwap += " <i>(" + str(int(worksheet3.cell_value(x, q2))) + " aud)</i>"
-        elif str(worksheet3.cell(x, q2))[:4] == 'text' and (''.join(str(worksheet3.cell_value(x, q2)).split())) != 'с/з':
+        elif str(worksheet3.cell(x, q2))[:4] == 'text' and (''.join(str(worksheet3.cell_value(x, q2)).split())).lower() != 'с/з':
             juwap += " <i>(" + str(worksheet3.cell_value(x, q2)) + " aud)</i>"
-        elif (''.join(str(worksheet3.cell_value(x, q2)).split())) == 'с/з':
+        elif (''.join(str(worksheet3.cell_value(x, q2)).split())).lower() == 'с/з':
             juwap += " <i>(" + str(worksheet3.cell_value(x, q2)) + ")</i>"
         return juwap
 
@@ -75,13 +75,13 @@ def bos_nomer_orni(x, q, kurs):
 
                 if str(worksheet4.cell(x, q2))[:6] == 'number':
                     break
-                elif str(worksheet4.cell(x, q2))[:4] == 'text' and ((''.join(str(worksheet4.cell_value(x, q2)).split())) == 'с/з' or (''.join(str(worksheet4.cell_value(x, q2)).split())).isdigit()):
+                elif str(worksheet4.cell(x, q2))[:4] == 'text' and ((''.join(str(worksheet4.cell_value(x, q2)).split())).lower() == 'с/з' or (''.join(str(worksheet4.cell_value(x, q2)).split())).isdigit()):
                     break
                 q2 = q2 + 1
         if str(worksheet4.cell(x, q2))[:6] == 'number':
             juwap += " <i>(" + str(int(worksheet4.cell_value(x, q2))) + " aud)</i>"
-        elif str(worksheet4.cell(x, q2))[:4] == 'text' and (''.join(str(worksheet4.cell_value(x, q2)).split())) != 'с/з':
+        elif str(worksheet4.cell(x, q2))[:4] == 'text' and (''.join(str(worksheet4.cell_value(x, q2)).split())).lower() != 'с/з':
             juwap += " <i>(" + str(worksheet4.cell_value(x, q2)) + " aud)</i>"
-        elif (''.join(str(worksheet4.cell_value(x, q2)).split())) == 'с/з':
+        elif (''.join(str(worksheet4.cell_value(x, q2)).split())).lower() == 'с/з':
             juwap += " <i>(" + str(worksheet4.cell_value(x, q2)) + ")</i>"
         return juwap
