@@ -18,7 +18,7 @@ def bos_nomer_orni(x, q, kurs):
 
                 if str(worksheet1.cell(x, q2))[:6] == 'number':
                     break
-                elif str(worksheet1.cell(x, q2))[:4] == 'text' and ((''.join(str(worksheet1.cell_value(x, q2)).split())) == 'с/з' or (''.join(str(worksheet1.cell_value(x, q2)).split())).isdigit()):
+                elif str(worksheet1.cell(x, q2))[:4] == 'text' and ((''.join(str(worksheet1.cell_value(x, q2)).split())) == 'с/з' or ((''.join(str(worksheet1.cell_value(x, q2)).split())) == 'с/З' or (''.join(str(worksheet1.cell_value(x, q2)).split())).isdigit()):
                     break
                 q2 = q2 + 1
         if str(worksheet1.cell(x, q2))[:6] == 'number':
@@ -37,7 +37,7 @@ def bos_nomer_orni(x, q, kurs):
 
                 if str(worksheet2.cell(x, q2))[:6] == 'number':
                     break
-                elif str(worksheet2.cell(x, q2))[:4] == 'text' and ((''.join(str(worksheet2.cell_value(x, q2)).split())) == 'с/з' or (''.join(str(worksheet2.cell_value(x, q2)).split())).isdigit()):
+                elif str(worksheet2.cell(x, q2))[:4] == 'text' and ((''.join(str(worksheet2.cell_value(x, q2)).split())) == 'с/з' or ((''.join(str(worksheet1.cell_value(x, q2)).split())) == 'с/З' or (''.join(str(worksheet2.cell_value(x, q2)).split())).isdigit()):
                     break
                 q2 = q2 + 1
         if str(worksheet2.cell(x, q2))[:6] == 'number':
@@ -56,7 +56,7 @@ def bos_nomer_orni(x, q, kurs):
 
                 if str(worksheet3.cell(x, q2))[:6] == 'number':
                     break
-                elif str(worksheet3.cell(x, q2))[:4] == 'text' and ((''.join(str(worksheet3.cell_value(x, q2)).split())) == 'с/з' or (''.join(str(worksheet3.cell_value(x, q2)).split())).isdigit()):
+                elif str(worksheet3.cell(x, q2))[:4] == 'text' and ((''.join(str(worksheet3.cell_value(x, q2)).split())) == 'с/з' or ((''.join(str(worksheet1.cell_value(x, q2)).split())) == 'с/З' or (''.join(str(worksheet3.cell_value(x, q2)).split())).isdigit()):
                     break
                 q2 = q2 + 1
         if str(worksheet3.cell(x, q2))[:6] == 'number':
@@ -75,7 +75,7 @@ def bos_nomer_orni(x, q, kurs):
 
                 if str(worksheet4.cell(x, q2))[:6] == 'number':
                     break
-                elif str(worksheet4.cell(x, q2))[:4] == 'text' and ((''.join(str(worksheet4.cell_value(x, q2)).split())) == 'с/з' or (''.join(str(worksheet4.cell_value(x, q2)).split())).isdigit()):
+                elif str(worksheet4.cell(x, q2))[:4] == 'text' and ((''.join(str(worksheet4.cell_value(x, q2)).split())) == 'с/з' or ((''.join(str(worksheet1.cell_value(x, q2)).split())) == 'с/З' or (''.join(str(worksheet4.cell_value(x, q2)).split())).isdigit()):
                     break
                 q2 = q2 + 1
         if str(worksheet4.cell(x, q2))[:6] == 'number':
