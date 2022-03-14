@@ -82,7 +82,7 @@ def kafedra(message):
         btn13 = types.KeyboardButton('асс. Тилепова Абадан')
         btn14 = types.KeyboardButton('асс. Примбетов А')
         btn15 = types.KeyboardButton('асс. Мамутова А.')
-        btn16 = types.KeyboardButton('асс. Жарылкаганов Б')
+        btn16 = types.KeyboardButton('асс. Жарылканов Б.')
         btn17 = types.KeyboardButton('асс. Даулетназаров Ж')
         markup.add(btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btn10, btn11, btn12, btn13, btn14, btn15, btn16, btn17)
         start_handler = f"<b> Tanlang: </b>"
