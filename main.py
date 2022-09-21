@@ -10,7 +10,7 @@ TOKEN = '5028040922:AAFw6VoiWkkAUf_V6E8YxDUGo420ng4bt6I'
 APP_URL = f'https://botqo.herokuapp.com/{TOKEN}'
 bot = telebot.TeleBot(TOKEN)
 server = Flask(__name__)
-tekst = "<b>Aqırģı márte " + confyg_1.janalangan_waqit + " jańalandı.</b>\nKestede qátelerdi bayqasańız,\ndekanatqa xabarlasıń."
+tekst = "<b>Aqırģı márte " + confyg_1.janalangan_waqit + " jańalandı.</b>\nKestede qáteler bar bolsa,\ndekanatqa xabarlasıń."
 
 
 
