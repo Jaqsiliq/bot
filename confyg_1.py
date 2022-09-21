@@ -6,4 +6,4 @@ fayl_ati_3 = '3-курс.xls'
 list_ati_3 = '(3 курс Гузги)'
 fayl_ati_4 = '4-курс.xls'
 list_ati_4 = '(4 курс Гузги)'
-janalangan_waqit = "06.04.2022"
+janalangan_waqit = "14.09.2022"
